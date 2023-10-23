@@ -1,0 +1,44 @@
+a:link{
+    color: green;
+}
+a{
+    color: red;
+}
+a:hover{color: blue;}
+li:nth-child(2n+2){
+    color: red;
+}
+p::first-letter{
+    color: red; font-size: 50px;
+}
+h1{
+    text-align: center;
+     text-transform: uppercase;
+      color: aquamarine;
+       position: relative; 
+       padding-bottom: 5px;
+       padding-top: 5px;
+
+    }
+ h1::after{
+    position: absolute;
+    content: ""; 
+    background: aquamarine;
+     width: 100px;
+     height: 5px;
+     bottom: 0px;
+     left: 50%;
+     margin-left: -50px;
+ }
+
+
+ h1::before{
+    position: absolute;
+    content: ""; 
+    background: aquamarine;
+     width: 100px;
+     height: 5px;
+     top: 0px;
+     left: 50%;
+     margin-left: -50px;
+ }

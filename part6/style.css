@@ -1,0 +1,23 @@
+div{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+div.one{
+    opacity: 0.55; 
+    color: #fff; 
+    text-align: center; 
+    margin: auto; 
+    filter: alpha(opacity=55);
+}
+
+
+
+body{
+    background: url(image/fix.png);
+    background-repeat: no-repeat;
+    
+}

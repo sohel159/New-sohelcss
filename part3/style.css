@@ -1,0 +1,23 @@
+
+body{
+    background-color: burlywood;
+}
+
+
+div{background: lightgreen; 
+    width: 400px; 
+    height: 400px; 
+    position: relative; 
+    bottom: 0px;
+    right: 0px;}
+
+
+div.a{
+    width: 100px;
+     height: 100px; 
+     position: absolute; 
+     background: red;
+     left: 0px;
+     bottom: 0px;
+     top: auto;
+}
